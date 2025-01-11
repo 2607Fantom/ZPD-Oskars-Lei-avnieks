@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produktu Lapa</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #6F4C3E; /* Darker brown for navigation */
+            padding: 20px;
+            text-align: left;
+
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            text-align: left; /* Centrē virsrakstu */
+            color: #333; /* Tumši pelēka krāsa */
+        }
+        h5 {
+            text-align: left; /* Centrē virsrakstu */
+            color: #333; /* Tumši pelēka krāsa */
+        }
+        .product-gallery {
+            display: grid; /* Izmanto grīdu, lai sakārtotu attēlus */
+            grid-template-columns: repeat(4, 1fr); /* Divas kolonnas */
+            gap: 0.0001px; /* Atstarpe starp attēliem */
+            margin-top: 40px; /* Atstarpe virs galerijas */
+        }
+        .product-gallery img {
+            width: 90%; /* Attēli aizņem visu kolonnas platumu */
+            height: auto; /* Saglabā attēla proporcijas */
+            border-radius: 8px; /* Noapaļo stūrus */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Pievieno ēnu attēliem */
+        }
+    </style>
+</head>
+<nav>
+    <a href="sakums.html">Sākums</a>
+    <a href="#products">Galerija</a>
+    <a href="parmums.html">Par mums</a>
+    <a href="Kontakti.html">Kontakti</a>
+</nav>
+<body>
+
+    <h1>Produktu Galerija</h1>
+    <h5>Attēli tika ņemti par velti no vietnes https://unsplash.com/s/photos/bedroom.</h5>
+
+    <div class="product-gallery">
+        <img src="istockphoto-1467126728-612x612.webp" alt="Produkta 1">
+        <img src="istockphoto-1805648121-612x612.webp" alt="Produkta 2">
+        <img src="istockphoto-1980039966-612x612.webp" alt="Produkta 3">
+        <img src="istockphoto-2025383353-612x612.webp" alt="Produkta 4">
+    </div>
+
+</body>
+</html>
